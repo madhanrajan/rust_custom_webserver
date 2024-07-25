@@ -19,7 +19,7 @@ This project is a basic, simple, and multithreaded webserver built using the Rus
 1. **Clone the repository:**
 
     ```sh
-    git clone https://github.com/your-username/custom-rust-webserver.git
+    git clone https://github.com/madhanrajan/rust_custom_webserver/
     cd custom-rust-webserver
     ```
 
