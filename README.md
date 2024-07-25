@@ -8,9 +8,6 @@ This project is a basic, simple, and multithreaded webserver built using the Rus
 - **Simple:** Easy to understand and extend.
 - **Multithreaded:** Utilizes Rust's concurrency features for handling multiple connections efficiently.
 - **Lightweight:** Minimal dependencies and efficient code.
-- **Asynchronous:** Utilizes async/await for handling multiple connections concurrently.
-- **Customizable:** Easily extendable to fit various needs.
-- **Secure:** Includes basic security features such as HTTPS support.
 
 ## Requirements
 
@@ -29,23 +26,12 @@ This project is a basic, simple, and multithreaded webserver built using the Rus
 2. **Build the project:**
 
     ```sh
-    cargo build --release
+    cargo build
     ```
 
 3. **Run the server:**
 
     ```sh
-    cargo run --release
+    cargo run
     ```
 
-## Configuration
-
-The server can be configured using a `config.toml` file located in the root directory of the project. The available configuration options include:
-
-```toml
-[server]
-port = 8080
-host = "127.0.0.1"
-use_https = true
-cert_path = "path/to/cert.pem"
-key_path = "path/to/key.pem"
